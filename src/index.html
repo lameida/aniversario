@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__logo">Aniversário do Luciano</h1>
+            <p class="hero__text">
+                O meu aniversário começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Vila Maria - São Paulo 
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                         R$60,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        08/11/2023 às 20hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--churras" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Churrasco</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores labore rem alias nisi ea ullam, at perspiciatis! Fugit expedita earum tempore eos praesentium alias accusamus, modi quisquam impedit pariatur.</p>
+            </div>
+            <img class="event__image" src="./image/churras.jpg" alt="Churrasco">
+        </div>
+    </section>
+    <section class="event event--cerveja event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Cerveja</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores labore rem alias nisi ea ullam, at perspiciatis! Fugit expedita earum tempore eos praesentium alias accusamus, modi quisquam impedit pariatur.</p>
+            </div>
+            <img class="event__image" src="./image/cerveja2.jpg" alt="Cerveja">
+        </div>
+    </section>
+    <section class="event event--refri">
+        <div class="container"data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Refrigerantes</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores labore rem alias nisi ea ullam, at perspiciatis! Fugit expedita earum tempore eos praesentium alias accusamus, modi quisquam impedit pariatur.</p>
+            </div>
+            <img class="event__image" src="./image/refri.jpg" alt="Refrigerantes">
+        </div>
+    </section>
+    <section class="event event--musica event--image-left">
+        <div class="container"data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Música ao Vivo</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores labore rem alias nisi ea ullam, at perspiciatis! Fugit expedita earum tempore eos praesentium alias accusamus, modi quisquam impedit pariatur.</p>
+            </div>
+            <img class="event__image" src="./image/musica.jpg" alt="musica ao vivo">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
